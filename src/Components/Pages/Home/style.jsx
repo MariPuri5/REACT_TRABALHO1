@@ -13,14 +13,12 @@ export const Header = styled.div`
   color: white;
   width: 100%;
   text-align: right;
-  padding: 7px;
+  padding: 10px ;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 `;
-
-
 export const SecondHeader = styled.div`
   background-color: white;
   color: black;
@@ -31,6 +29,37 @@ export const SecondHeader = styled.div`
   justify-content: flex-start; 
   gap: 30px; 
   margin-bottom: 20px;
+`;
+export const HomeHeader = styled.div`
+  background-color: #000;  
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 7px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  
+`;
+
+export const Nav = styled.nav`
+  display: flex;
+  gap: 15px;
+  flex: 1;
+`;
+
+export const NavLink = styled.a`
+  color: #fffdfd;
+  font-size: 11px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 12px;
+  /* transition: color 0.2s ease; */
+
+  &:hover {
+    color: #fff;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -43,7 +72,7 @@ export const ImagemPequena = styled.img`
   width: 200px;
   height: auto;
   margin-top: 20px;
-  align-self: left; 
+  align-self: left;
   margin-left: 20px;   
 `;
 
@@ -51,23 +80,30 @@ export const ImagemJogo = styled.img`
   width: 200px;
   height: auto;
   margin-top: 1px;
-  /* align-self: left; 
-  margin-left: 1px;  */
-  `;
+`;
 
 export const ImagemMari = styled.img`
   width: 70px;
   height: auto;
   margin-top: 20px;
-  /* align-self: left;  */
+  align-self: left; 
   margin-left: 20px; 
   border-radius: 100px;
 `;
+
 export const ImagemCarrinho = styled.img`
   width: 70px;
   height: auto;
   margin-top: 20px;
-  /* align-self: left;  */
+  align-self: left;  
+  margin-left: 20px; 
+  border-radius: 100px;
+`;
+
+export const ImagemCartao = styled.img`
+  width: 70px;
+  height: auto;
+  margin-top: 20px;
   margin-left: 20px; 
   border-radius: 100px;
 `;
@@ -81,11 +117,22 @@ export const CardContainer = styled.div`
   width: 80%;
   padding-bottom: 20px;
   display: flex;
-  /* align-items: flex; */
-
-  /* flex-direction: ; */
-  /* overflow-x: auto; */ 
+  /* padding-bottom: 20px;
+  display: center;
+  align-items: flex; 
+  flex-direction: center ;  */
+  /* overflow-x: auto;  */
 `;
+
+export const CardSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+`;
+
 
 export const Card = styled.div`
   background-color: #f8f8f8;
@@ -93,29 +140,18 @@ export const Card = styled.div`
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  flex: 1 1 200px; /* Faz o cartão se ajustar ao espaço disponível */
-  max-width: 300px; /* Limita a largura do cartão */
+  flex: 1 1 200px;
+  max-width: 300px;
   transition: transform 0.3s;
-  overflow: hidden;   
-  /* padding: 10px;
-  margin: 20px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
-  text-align: center;
-  flex: 0 0 auto;
-  width: 200px;
-  transition: transform 0.3s;
-  border-radius: 8px;
-  overflow: hidden; */
+  overflow: hidden;
 `;
 
 export const Titulo = styled.div`
   padding: 10px;
   margin: 20px;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 20px; 
+  width: 50%;  
 `;
 
 export const Button = styled.button`
@@ -128,4 +164,8 @@ export const Button = styled.button`
   margin-top: 10px;
   font-size: 1rem;
   font-weight: bold;
+/* 
+  &:hover {
+    background-color: #007bff;
+  } */
 `;
