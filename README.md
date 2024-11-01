@@ -1,8 +1,27 @@
-# React + Vite
+<h1 align="left">Trabalho individual</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###
 
-Currently, two official plugins are available:
+<h3 align="left">Fiz o clone da pagina camisa 7 do botafogo.</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###
+
+<p align="left">Pagina de Login</p>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgur.com/UAsQ8Es.jpeg"  />
+</div>
+
+###
+
+<p align="left">Pagina Home</p>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgur.com/5hKo3H1.jpeg"  />
+</div>
+
+###
