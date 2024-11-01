@@ -15,7 +15,7 @@ export const Login = () => {
     <Container>
       <Header>
         <ImagemPequena src="/Foto/logo2.png" alt="Logo Pequena" />
-        <h3>Login Cadastre-se</h3>
+        <h3>Login | Cadastre-se</h3>
       </Header>
 
       <ImagemGrande src="/Foto/logo.png" alt="Logo Grande" />
